@@ -4,32 +4,28 @@
     <title>WEB Welcome</title>
     <meta charset="utf-8">
     <style>
-    a{
-      text-decoration: none;
-      color: black;
-    }
-    h1{
-      text-align: center;
-      font-size: 50px;
-    }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      a:visited{
+        color: gray; text-decoration: none;
+      }
+      a:hover{
+        color: teal; text-decoration:none;
+      }
+      a:active{
+        color: red; text-decoration: underline;
+      }
+      h1{
+        text-align: center;
+        font-size: 50px;
+      }
     </style>
-
-      <!-- 구글 방문자 확인 테스트-->
-    <p>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B6ZCQBDP02"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-B6ZCQBDP02');
-</script>
-    </p>
-
   </head>
+
   <body>
-    <h1><a href="index.html" title="home">WEB</a></h1>
+    <h1><a href="index.html" title="home" style="color:black;">WEB</a></h1>
     <ol>
       <li><a href="1.html" title="HTML">HTML</a></li>
       <li><a href="2.html" title="CSS">CSS</a></li>
